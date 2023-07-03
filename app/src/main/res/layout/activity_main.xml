@@ -8,26 +8,26 @@
     tools:context=".MainActivity"
     android:background="@drawable/bg_color">
   <Button
-      android:id="@+id/button2"
+      android:id="@+id/yellow"
        style="@style/btn_style"
       android:layout_marginTop="100dp"
-android:textColor="#FFD600"
+      android:textColor="#FFD600"
       android:text="Yellow"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView" />
 
   <Button
-      android:id="@+id/button3"
+      android:id="@+id/purple"
       style="@style/btn_style"
       android:textColor="#6200EA"
       android:text="purple"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/button4" />
+      app:layout_constraintTop_toBottomOf="@+id/blue" />
 
   <Button
-      android:id="@+id/button4"
+      android:id="@+id/blue"
       style="@style/btn_style"
 
 
@@ -35,10 +35,10 @@ android:textColor="#FFD600"
       android:text="Blue"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/button5" />
+      app:layout_constraintTop_toBottomOf="@+id/green" />
 
   <Button
-      android:id="@+id/button5"
+      android:id="@+id/green"
       style="@style/btn_style"
 
       android:textColor="#64DD17"
@@ -46,16 +46,16 @@ android:textColor="#FFD600"
       android:text="green"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/button" />
+      app:layout_constraintTop_toBottomOf="@+id/red" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/red"
       style="@style/btn_style"
       android:text="REd"
       android:textColor="#EA0808"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/button2" />
+      app:layout_constraintTop_toBottomOf="@+id/yellow" />
 
   <TextView
       android:id="@+id/textView"
