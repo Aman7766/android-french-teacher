@@ -29,8 +29,6 @@
   <Button
       android:id="@+id/blue"
       style="@style/btn_style"
-
-
       android:textColor="#304FFE"
       android:text="Blue"
       app:layout_constraintEnd_toEndOf="parent"
