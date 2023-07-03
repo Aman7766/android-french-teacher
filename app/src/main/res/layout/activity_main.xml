@@ -10,9 +10,8 @@
   <Button
       android:id="@+id/button2"
        style="@style/btn_style"
-
       android:layout_marginTop="100dp"
-
+android:textColor="#FFD600"
       android:text="Yellow"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +20,7 @@
   <Button
       android:id="@+id/button3"
       style="@style/btn_style"
-
-
-
-
+      android:textColor="#6200EA"
       android:text="purple"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +31,7 @@
       style="@style/btn_style"
 
 
-
+      android:textColor="#304FFE"
       android:text="Blue"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +41,7 @@
       android:id="@+id/button5"
       style="@style/btn_style"
 
-
+      android:textColor="#64DD17"
 
       android:text="green"
       app:layout_constraintEnd_toEndOf="parent"
@@ -56,6 +52,7 @@
       android:id="@+id/button"
       style="@style/btn_style"
       android:text="REd"
+      android:textColor="#EA0808"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -63,6 +60,7 @@
   <TextView
       android:id="@+id/textView"
       style="@style/wc"
+      android:textColor="@color/black"
       android:layout_marginStart="146.5dp"
       android:layout_marginTop="56dp"
       android:layout_marginEnd="146.5dp"
